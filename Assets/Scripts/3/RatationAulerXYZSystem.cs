@@ -5,6 +5,8 @@ using Unity.Entities;
 using Unity.Transforms;
 using UnityEngine;
 
+
+[DisableAutoCreation]
 public class RatationAulerXYZSystem : ComponentSystem
 {
     protected override void OnUpdate()
