@@ -9,6 +9,7 @@ public class PrintDataSystem : ComponentSystem
     {
         Entities.ForEach((ref PrinDataCompnet printdata) =>
         {
+            printdata.mPrintData++;
             Debug.Log(printdata.mPrintData);
         });
 
